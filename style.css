@@ -1,1 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(110, 0, 201);
+}
 
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #333;
+}
+
+.dev-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.dev-card {
+  background-color:rgb(255, 255, 255) ;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.dev-card img {
+  width: 70%;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.dev-card h2 {
+  color: #333;
+  margin: 10px;
+  font-size: 22px;
+}
+
+.dev-card p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+  margin: 10px;
+}
